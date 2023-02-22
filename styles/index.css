@@ -18,10 +18,11 @@ footer {
   justify-content: space-between;
   margin-top: 68px;
   margin-bottom: 48px;
-  align-items: baseline;
+  align-items: flex-start;
 }
-footer_right {
+footer .footer_right {
   display: flex;
+  justify-content: space-between;
 }
 
 a {
@@ -38,6 +39,19 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.link__icons {
+  max-width: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 95px;
+  margin-right: 45px;
+}
+
+.link_icon {
+  margin-left: 24px;
 }
 
 .nav__right {
