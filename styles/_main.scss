@@ -13,6 +13,18 @@ header{
     justify-content: space-between;
     margin-top: 60px;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+    margin-bottom: 48px;
+    align-items: baseline;
+
+    &_right{
+        display: flex;
+        
+    }
+}
 
 a{
     font-family: fonts.$maintext;
@@ -72,6 +84,17 @@ h4{
 
     letter-spacing: -0.423077px;
     margin-bottom: 32px;
+}
+h5{
+    font-family: fonts.$maintext;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+
+
 }
 
 p{

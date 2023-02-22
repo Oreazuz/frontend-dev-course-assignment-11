@@ -13,6 +13,17 @@ header {
   margin-top: 60px;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+  margin-bottom: 48px;
+  align-items: baseline;
+}
+footer_right {
+  display: flex;
+}
+
 a {
   font-family: "Mulish", sans-serif;
   font-style: normal;
@@ -66,6 +77,16 @@ h4 {
   /* identical to box height */
   letter-spacing: -0.423077px;
   margin-bottom: 32px;
+}
+
+h5 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #111111;
 }
 
 p {
@@ -199,4 +220,21 @@ h2 {
   min-height: 410px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px solid #D8D8D8;
+  padding-bottom: 58px;
+  margin-bottom: 48px;
+}
+.bottom__section_item_right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom__section_item_subitem {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom__section_item_text {
+  max-width: 190px;
 }
