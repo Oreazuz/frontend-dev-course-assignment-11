@@ -1,29 +1,4 @@
-@use 'fonts';
+@import'main';
 
-body{
-    max-width: 80vw;
-    display:flex;
-    width: 100%;
-    flex-direction: column;
-    margin: auto;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-}
 
-a{
-    font-family: fonts.$maintext;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    /* identical to box height */
 
-    letter-spacing: -0.346154px;
-
-    color: #111111;
-    text-decoration: none;
-    margin-right: 29px;
-}
