@@ -1,10 +1,12 @@
 @use 'fonts';
+
 body{
-    max-width: 80vw;
+    max-width:1110px;
     display:flex;
     width: 100%;
     flex-direction: column;
     margin: auto;
+    background-color: #FFFFFF;
 }
 header{
     display: flex;
@@ -24,5 +26,79 @@ a{
 
     color: #111111;
     text-decoration: none;
+
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.nav__right{
     margin-right: 29px;
+
+}
+
+h1{
+    font-family: fonts.$maintext;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+
+
+    color: #111111;
+}
+h2{
+    font-family: fonts.$maintext;
+}
+h3{
+    font-family: fonts.$maintext;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    color: #111111;
+}
+h4{
+    font-family: fonts.$maintext;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: -0.423077px;
+    margin-bottom: 32px;
+}
+
+p{
+    font-family: fonts.$maintext;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #111111;
+}
+
+.top__section{
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p__width{
+    max-width: 635px;
+}
+
+img{
+    transition: scale 1s ease;
+}
+img:hover{
+    scale: 1.1;
 }
