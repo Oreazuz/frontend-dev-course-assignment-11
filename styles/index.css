@@ -158,7 +158,8 @@ img:hover {
 }
 
 .top__quote_border {
-  text-decoration: overline;
+  padding-top: 10px;
+  border-top: solid 2px #979797;
 }
 
 .grid__container {
