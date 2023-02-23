@@ -25,6 +25,10 @@ footer .footer_right {
   justify-content: space-between;
 }
 
+input {
+  font-family: "Mulish", sans-serif;
+}
+
 a {
   font-family: "Mulish", sans-serif;
   font-style: normal;

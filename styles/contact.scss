@@ -1,1 +1,32 @@
 @import'main';
+
+.top__section__left{
+    max-width: 50%;
+    width: 100%;
+}
+.top__section__right{
+    max-width: 475px;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 29px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #979797;
+    padding: 16px 0;
+    margin-bottom: 38px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #111111;
+}
