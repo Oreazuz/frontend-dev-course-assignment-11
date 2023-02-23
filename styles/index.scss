@@ -12,8 +12,11 @@
     justify-content: space-between;
 }
 
-.top    quote{
-
+.top__quote{
+    align-self: flex-end;
+}
+.top__quote_border{
+    text-decoration: overline;
 }
 
 .grid__container{
@@ -117,9 +120,7 @@ h2{
     }
 }
 
-.text__gray{
-    opacity: 0.6;
-}
+
 
 .bottom__section_item{
     min-height: 410px;

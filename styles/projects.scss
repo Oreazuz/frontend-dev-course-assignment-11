@@ -1,1 +1,41 @@
 @import'main';
+
+.top__section__left{
+    max-width: 60%;
+    width: 100%;
+}
+
+.top__section_grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(6, 1fr);
+    max-width: 335px;
+    // column-gap: 40px;
+    width: 100%;
+    
+
+}
+
+
+h1{
+    margin-bottom: 29px;
+}
+
+h3{
+    font-size: 18px;
+    border-bottom: 1px solid #979797;
+    padding:18px 18px 18px 0;
+
+}
+
+.main__image{
+    margin:60px 0;
+    max-width: 1110px;
+
+}
+
+.gallery__container{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0  ;
+}

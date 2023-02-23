@@ -131,6 +131,10 @@ img:hover {
   scale: 1.1;
 }
 
+.text__gray {
+  color: rgba(17, 17, 17, 0.6);
+}
+
 .color-text {
   color: #4A4FF2;
 }
@@ -139,6 +143,14 @@ img:hover {
   max-height: 251px;
   display: flex column;
   justify-content: space-between;
+}
+
+.top__quote {
+  align-self: flex-end;
+}
+
+.top__quote_border {
+  text-decoration: overline;
 }
 
 .grid__container {
@@ -224,10 +236,6 @@ h2 {
 }
 .bottom__section_top .right {
   margin-right: 40px;
-}
-
-.text__gray {
-  opacity: 0.6;
 }
 
 .bottom__section_item {
