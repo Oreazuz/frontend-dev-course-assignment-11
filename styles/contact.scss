@@ -30,3 +30,29 @@ input{
 
     color: #111111;
 }
+button{
+    width: 125px;
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    background-color: #4A4FF2 ;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    &:hover{
+        background-color: #FFFFFF;
+        color: #4A4FF2;
+        border: 1px solid #4A4FF2;
+    }
+}
+
+.main__image{
+    margin-top: 120px;
+    margin-bottom: 42px;
+}
